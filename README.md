@@ -1,6 +1,8 @@
 Transpose a befunge program to flip north with east and flip south with west,
 like so:
 
+If the input is:
+
 ```befunge
 >12v
 8  3
@@ -8,7 +10,7 @@ like so:
 ^65<
 ```
 
-turns into:
+Then `runghc Main.hs` turns this into:
 
 ```befunge
 v87<
